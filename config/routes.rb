@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
  
+  resources :users, only: [:new, :create] #El usuario solo tiene acceso a estos dos metodos
   #get '/products' , to: 'products#index'
   #get '/products/new' , to: 'products#new', as: 'new_product'
   #post '/products', to: 'products#create'
