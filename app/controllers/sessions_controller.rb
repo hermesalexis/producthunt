@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  before_action :private_access, only: [:destroy] #solo se llama destroy si se esta autenticado
+  before_action :public_access, except: [:destroy]
   def new
   end
 
