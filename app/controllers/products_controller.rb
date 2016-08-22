@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  before_action :private_access, except: [:index, :show] #cada vez que se llame alguna de estas rutas va a ejecutar el metodo private_Access exceptuando index y show
+
   def index
   	@products = Product.all
   end
