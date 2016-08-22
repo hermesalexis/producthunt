@@ -1,0 +1,116 @@
+[33mcommit 39b1e08afa85c38d5dec10a0e84fec1ad7c78b86[m
+Merge: ca990db f34056c
+Author: Hermes <hermesagm@gmail.com>
+Date:   Sat Aug 20 12:16:19 2016 -0500
+
+    Merge pull request #3 from hermesalexis/delete-products
+    
+    Crea la ruta DELETE /products/:id
+
+[33mcommit f34056ca55c42240e48cb8cff7ad96236ca03347[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Sat Aug 20 12:12:26 2016 -0500
+
+    Crea la ruta DELETE /products/:id
+
+[33mcommit ca990dbe7546ffc1cae8c3b8c47462f0a2c6ab7b[m
+Merge: e51b27a 9e49a14
+Author: Hermes <hermesagm@gmail.com>
+Date:   Sat Aug 20 11:58:50 2016 -0500
+
+    Merge pull request #2 from hermesalexis/edit-products
+    
+    Edit products
+
+[33mcommit 9e49a146f365f16f99aedd82ac55786ec46e3007[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Sat Aug 20 11:56:10 2016 -0500
+
+    Agrega enlace para editar productos
+
+[33mcommit 52c9df643940e620009807cba267af61b460b915[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Sat Aug 20 11:52:47 2016 -0500
+
+    Agrega enlace para mostrar los detalles de productos
+
+[33mcommit 22199c0cf1e33482d2297a1a0bc2dcf485a30eb8[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Sat Aug 20 11:50:42 2016 -0500
+
+    Crea la ruta PATCH /product/:id
+
+[33mcommit 4bf4fd89aebd55801e584354083939a7affecb32[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Sat Aug 20 11:38:36 2016 -0500
+
+    Crea la ruta /products/:id/edit
+
+[33mcommit e51b27ad87585a8e58de2dc4b68d127821338fb6[m
+Merge: bfaaa05 d2e3f47
+Author: Hermes <hermesagm@gmail.com>
+Date:   Fri Aug 19 16:01:59 2016 -0500
+
+    Merge pull request #1 from hermesalexis/show-product
+    
+    Crea la ruta products/id
+
+[33mcommit d2e3f4746c441526cc28c26c01db32618d04520f[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Fri Aug 19 15:58:20 2016 -0500
+
+    Crea la ruta products/id
+
+[33mcommit bfaaa055c675781300e25a23b6d9482d0db95192[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Fri Aug 19 14:22:55 2016 -0500
+
+    Agrega el boton publicar podructo en la lista de productos
+
+[33mcommit 9d8ba2e601a81b32cf8c3c535ff3e7929ff26d3f[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Fri Aug 19 14:22:23 2016 -0500
+
+    Agrega la alerta para notice
+
+[33mcommit 37c7f2c462db279308d7f9f00f55802d307661ef[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Fri Aug 19 14:21:28 2016 -0500
+
+    Crear la ruta POST /products
+
+[33mcommit 1b592c5be38aa2dfcf785846561ec7ddd29f10d1[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Wed Aug 17 16:24:18 2016 -0500
+
+    Crea la ruta /products/new
+
+[33mcommit 5bd099969e6387cf7bc3f098db163456b6ce5765[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Wed Aug 17 15:53:10 2016 -0500
+
+    Install and configure bootstrap
+
+[33mcommit ec51c7e3f14d371b4fc8b783f82b4347146b1a0e[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Wed Aug 17 15:30:40 2016 -0500
+
+    Implementa la funcionalidad de listar productos
+
+[33mcommit 8dfd7cbaecfcc71849418069bd3ac26777c0a3bb[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Wed Aug 17 12:39:40 2016 -0500
+
+    Crea el modelo Product
+
+[33mcommit 064404dc1fc44e9a74b75bc62714e744ef47aeb7[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Wed Aug 17 11:45:57 2016 -0500
+
+    crea la ruta /products
+
+[33mcommit 73ed7c5cad49cddc427cad6fb21f14bb493df0b3[m
+Author: hermesagm <hermesagm@gmail.com>
+Date:   Wed Aug 17 11:25:32 2016 -0500
+
+    Crea el proyecto inicial de Rails
