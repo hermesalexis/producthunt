@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   #----------------------------------------------------------
   resources :users, only: [:new, :create] #El usuario solo tiene acceso a estos dos metodos
   resources :products do
+    resource :vote, only:[:create, :destroy]
     resources :comments, only: [:create]
   end
   
