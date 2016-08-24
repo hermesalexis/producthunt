@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   #delete '/products/:id', to: 'products#destroy'
   #----------------------------------------------------------
   resources :users, only: [:new, :create] #El usuario solo tiene acceso a estos dos metodos
-  resources :products
+  resources :products do
+    resources :comments, only: [:create]
+  end
   
 end
