@@ -5,6 +5,7 @@
       <div class="products">
         <% @products.each do |product| %>
         <div class="product clearfix">
+
           <% if product.voted_by? current_user %>
             <%= link_to product_vote_path(product), method: :delete, class: "product-upvote upvote-active" do %>
               <span class="upvote-arrow"></span>
@@ -16,6 +17,13 @@
               <span class="upvote-count"><%= product.votes.count %></span>
             <% end %>
           <% end %>
+          
+          <% if product.image.exists? %>
+            <div class="product-img">
+              <%= image_tag product.image.url(:thumb) %>
+            </div>
+          <% end %>
+
           <div class="product-details">
             <span class="product-title"><%= link_to product.name, product %></span>
             <span class="product-description"><%= product.description %></span>
