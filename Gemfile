@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
  gem "paperclip", "~> 5.0.0"
 
- gem 'aws-sdk', '~> 2.3'
+ gem 'aws-sdk', ' < 2.0'
 
 
 # Use Unicorn as the app server
